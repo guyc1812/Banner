@@ -80,35 +80,17 @@
                 },{
                     "category": "Banner",
                     "title":    "Merge Sort",
-                    "path":     "",
-                    "nav":      "",
+                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                    "nav":      "MergeSort-MergeSort",
                     "status":   310,
-                    "items":    [
-                        {
-                            "category": "Banner",
-                            "title":    "Merge Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
-                            "nav":      "MergeSort-MergeSort",
-                            "status":   310,
-                            "items":    []
-                        }
-                    ]
+                    "items":    []
                 },{
                     "category": "Banner",
                     "title":    "Radix Sort",
-                    "path":     "",
-                    "nav":      "",
+                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                    "nav":      "RadixSort-RadixSort",
                     "status":   310,
-                    "items":    [
-                        {
-                            "category": "Banner",
-                            "title":    "Radix Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
-                            "nav":      "RadixSort-RadixSort",
-                            "status":   310,
-                            "items":    []
-                        }
-                    ]
+                    "items":    []
                 }
             ]
         }   
