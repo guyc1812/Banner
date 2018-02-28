@@ -2,9 +2,12 @@
 
 * **Stability**
     
-    YES
+    YES when `if (a[j] > a[j - 1])` <br>
+    NO  when `if (a[j] >= a[j - 1])`
 
 * **Complexity**
+
+    O(n^2)
 
     Case 1. O(n) (Best case)<br> 
     If the array is already sorted, and that means that no swap occurred and only 1 iteration of n elements.

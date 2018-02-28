@@ -4,8 +4,8 @@
         {
             "category": "Banner",
             "title":    "Sort",
-            "path":     "",
-            "nav":      "",
+            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/README.md",
+            "nav":      "Sort",
             "status":   310,
             "items":    [
                 {
@@ -25,7 +25,7 @@
                         },{
                             "category": "Banner",
                             "title":    "Quick Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/QuickSort.md",
                             "nav":      "ExchangeSort-QuickSort",
                             "status":   310,
                             "items":    []
