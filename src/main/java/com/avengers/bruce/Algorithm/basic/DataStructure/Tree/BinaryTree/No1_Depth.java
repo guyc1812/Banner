@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.BinaryTree;
+package com.avengers.bruce.Algorithm.basic.DataStructure.Tree.BinaryTree;
 
 /*****
  * Created by apple on 2017/10/8.

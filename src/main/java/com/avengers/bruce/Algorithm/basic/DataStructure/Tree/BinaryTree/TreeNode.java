@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.BinaryTree;
+package com.avengers.bruce.Algorithm.basic.DataStructure.Tree.BinaryTree;
 
 /*****
  * 前中后序遍历

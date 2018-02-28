@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.ListNode;
+package com.avengers.bruce.Algorithm.basic.DataStructure.List.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

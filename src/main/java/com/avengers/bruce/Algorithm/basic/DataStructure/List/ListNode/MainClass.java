@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.ListNode;
+package com.avengers.bruce.Algorithm.basic.DataStructure.List.ListNode;
 
 /*****
  * Created by apple on 2017/10/8.

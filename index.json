@@ -18,7 +18,7 @@
                         {
                             "category": "Banner",
                             "title":    "Bubble Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/BubbleSort.md",
                             "nav":      "ExchangeSort-BubbleSort",
                             "status":   310,
                             "items":    []
