@@ -29,6 +29,13 @@
                             "nav":      "ExchangeSort-QuickSort",
                             "status":   310,
                             "items":    []
+                        },{
+                            "category": "Banner",
+                            "title":    "Quick Sort Non Recursive",
+                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/NonRecursiveQuickSort.md",
+                            "nav":      "ExchangeSort-QuickSortNonRecursive",
+                            "status":   310,
+                            "items":    []
                         }
                     ]
                 },{
