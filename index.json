@@ -48,14 +48,14 @@
                         {
                             "category": "Banner",
                             "title":    "Insertion Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/InsertionSort.md",
                             "nav":      "InsertionSort-InsertionSort",
                             "status":   310,
                             "items":    []
                         },{
                             "category": "Banner",
                             "title":    "Shell Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/ShellSort.md",
                             "nav":      "InsertionSort-ShellSort",
                             "status":   310,
                             "items":    []
@@ -71,14 +71,14 @@
                         {
                             "category": "Banner",
                             "title":    "Selection Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/SelectionSort.md",
                             "nav":      "SelectionSort-SelectionSort",
                             "status":   310,
                             "items":    []
                         },{
                             "category": "Banner",
                             "title":    "Heap Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/HeapSort.md",
                             "nav":      "SelectionSort-HeapSort",
                             "status":   310,
                             "items":    []
@@ -87,14 +87,14 @@
                 },{
                     "category": "Banner",
                     "title":    "Merge Sort",
-                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/MergeSort.md",
                     "nav":      "MergeSort-MergeSort",
                     "status":   310,
                     "items":    []
                 },{
                     "category": "Banner",
                     "title":    "Radix Sort",
-                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/README.md",
+                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/RadixSort.md",
                     "nav":      "RadixSort-RadixSort",
                     "status":   310,
                     "items":    []

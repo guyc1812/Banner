@@ -1,11 +1,29 @@
-package com.avengers.bruce.Algorithm.basic.Sorting;
+# Radix Sort
 
-import java.util.Arrays;
+* **Stability**
+    
+    YES
+    
+* **Complexity**
 
-public class RadixSort {
+    Average: O(nb)<br>
+    Best:    O(nb)<br>
+    Worst:   O(nb)
+    
+    b:bucket
+    
+* **Demonstration**
 
-    static int time = 1;
+    ```bash
+    initial : [170, 45, 75, 90, 802, 24, 2, 66]
+    round 1 : [170, 90, 802, 2, 24, 45, 75, 66] exponent: 1
+    round 2 : [802, 2, 24, 45, 66, 170, 75, 90] exponent: 10
+    round 3 : [2, 24, 45, 66, 75, 90, 170, 802] exponent: 100
+    ```
+    
+* **Implementation**
 
+    ```java
     private static int getMax(int arr[], int n) {
         int max = arr[0];
         for (int i = 1; i < n; i++)
@@ -13,7 +31,9 @@ public class RadixSort {
                 max = arr[i];
         return max;
     }
+    ```
 
+    ```java
     private static void countSort(int arr[], int n, int exp) {
 
         int output[] = new int[n];                                                  //****   units digit
@@ -39,23 +59,24 @@ public class RadixSort {
 
         System.arraycopy(output, 0, arr, 0, n);
     }
+    ```
 
+    ```java
     private static void radixSort(int arr[], int n) {
         int m = getMax(arr, n);
-        for (int exponent = 1; m / exponent > 0; exponent *= 10){
+        for (int exponent = 1; m / exponent > 0; exponent *= 10)
             countSort(arr, n, exponent);
-            System.out.println("round "+ time++ +" : "+Arrays.toString(arr) +" exponent: "+exponent);
-        }
-
     }
-
+    ```
+    
+    ```java
     public static void main(String[] args) {
         int arr[] = {170, 45, 75, 90, 802, 24, 2, 66};
         int n = arr.length;
         radixSort(arr, n);
         System.out.println(Arrays.toString(arr));
     }
-
-}
-
-
+  
+    // [2, 24, 45, 66, 75, 90, 170, 802]
+    
+    ```

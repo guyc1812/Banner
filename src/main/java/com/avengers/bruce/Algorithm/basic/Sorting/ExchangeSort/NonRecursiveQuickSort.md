@@ -6,12 +6,14 @@
 
 * **Complexity**
 
-    O(nlog(n))
+    Average: O(nlog(n))<br>
+    Best:    O(nlog(n))<br>
+    Worst:   O(n^2) 
     
 * **Demonstration**
 
     ```bash
-    init array :                    [1, 3, 9, 10, 2, 7, 8, 6 ]
+    initial array :                 [1, 3, 9, 10, 2, 7, 8, 6 ]
     partition round 1 from 0 to 7 : [1, 3, 9, 10, 2, 7, 8, 6 ]  pivot : 1
     partition round 2 from 1 to 7 : [1, 2, 3, 10, 9, 7, 8, 6 ]  pivot : 3
     partition round 3 from 3 to 7 : [1, 2, 3, 6 , 9, 7, 8, 10]  pivot : 10

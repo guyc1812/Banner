@@ -1,17 +1,30 @@
-package com.avengers.bruce.Algorithm.basic.Sorting.SelectionSort;
+# Heap Sort
 
-import java.util.Arrays;
+* **Stability**
+    
+    NO
+    
+* **Complexity**
 
-public class HeapSort {
+    Average: O(nlog(n))<br>
+    Best:    O(nlog(n))<br>
+    Worst:   O(nlog(n))
+    
+* **Demonstration**
 
-    //http://www.cnblogs.com/MOBIN/p/5374217.html
+    [A very nice demonstration](http://www.cnblogs.com/MOBIN/p/5374217.html)
+    
+* **Implementation**
 
+    ```java
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    ```
 
+    ```java
     private static void heapSort(int[] arr) {
 
         int len = arr.length;
@@ -27,7 +40,9 @@ public class HeapSort {
         }
 
     }
+    ```
 
+    ```java
     private static void heapAdjust(int[] arr, int i, int len) {
 
         int left = 2 * i + 1;
@@ -47,15 +62,15 @@ public class HeapSort {
         }
 
     }
+    ```
 
+    ```java
     public static void main(String[] args) {
-
         int[] array = {1, 3, 9, 10, 2, 7, 8, 6};
-
         heapSort(array);
-
         System.out.println(Arrays.toString(array));
-
     }
-
-}
+  
+    // [1, 2, 3, 6, 7, 8, 9, 10]
+    
+    ```

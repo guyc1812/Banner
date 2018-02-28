@@ -7,7 +7,9 @@
 
 * **Complexity**
 
-    O(n^2)
+    Average: O(n^2)<br>
+    Best:    O(n)<br>
+    Worst:   O(n^2) 
 
     Case 1. O(n) (Best case)<br> 
     If the array is already sorted, and that means that no swap occurred and only 1 iteration of n elements.
@@ -21,11 +23,12 @@
 * **Demonstration**
 
     ```bash
-    round 1 : [10, 3, 9, 8, 2, 7, 6]
-    round 2 : [10, 9, 3, 8, 7, 2, 6]
-    round 3 : [10, 9, 8, 3, 7, 6, 2]
-    round 4 : [10, 9, 8, 7, 3, 6, 2]
-    round 5 : [10, 9, 8, 7, 6, 3, 2]
+    initial : [3,  9, 10, 2, 7, 8, 6]
+    round 1 : [10, 3, 9 , 8, 2, 7, 6]
+    round 2 : [10, 9, 3 , 8, 7, 2, 6]
+    round 3 : [10, 9, 8 , 3, 7, 6, 2]
+    round 4 : [10, 9, 8 , 7, 3, 6, 2]
+    round 5 : [10, 9, 8 , 7, 6, 3, 2]
     ``` 
     
 * **Implementation**
