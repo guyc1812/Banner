@@ -1,10 +1,10 @@
 # Bubble Sort
 
-* Stability
+* **Stability**
     
     YES
 
-* Complexity
+* **Complexity**
 
     Case 1. O(n) (Best case)<br> 
     If the array is already sorted, and that means that no swap occurred and only 1 iteration of n elements.
@@ -15,7 +15,7 @@
     then after that it would look n - 1 elements.<br> 
     O = n + n - 1 + n - 2 ... + 1 = (n*(n + 1))/2 = O(n^2)
     
-* Demonstration
+* **Demonstration**
 
     ```bash
     round 1 : [10, 3, 9, 8, 2, 7, 6]
@@ -25,9 +25,7 @@
     round 5 : [10, 9, 8, 7, 6, 3, 2]
     ``` 
     
-* Implementation
-
-    swap function
+* **Implementation**
     
     ```java
     private static void swap(int[] arr, int i, int j) {
@@ -36,8 +34,6 @@
         arr[j] = temp;
     }
     ```
-    
-    bubble sort
     
     ```java
     private static void bubbleSort(int a[]) {
@@ -57,9 +53,7 @@
         }
     }
     ```
-    
-    test
-    
+        
     ```java
     public static void main(String[] args) {
         int[] array = {3, 9, 10, 2, 7, 8, 6};
