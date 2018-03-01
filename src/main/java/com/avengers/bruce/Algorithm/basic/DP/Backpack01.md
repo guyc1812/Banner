@@ -1,9 +1,19 @@
-package com.avengers.bruce.Algorithm.basic.DP;
+# 0-1 Backpack Problem
 
-public class Backpack01 {
+* **Demonstration**
 
+    | name | weight | value | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+    |:----:|:------:|:-----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
+    | a | 2 | 6 | 0 | 6 | 6 | 9 | 9 | 12 | 12 | 15 | 15 | 15 |
+    | b | 2 | 3 | 0 | 3 | 3 | 6 | 6 | 9 | 9 | 9 | 10 | 11 |
+    | c | 6 | 5 | 0 | 0 | 0 | 6 | 6 | 6 | 6 | 6 | 10 | 11 |
+    | d | 5 | 4 | 0 | 0 | 0 | 6 | 6 | 6 | 6 | 6 | 10 | 10 |
+    | e | 4 | 6 | 0 | 0 | 0 | 6 | 6 | 6 | 6 | 6 | 6  | 6  |
+    
+* **Solution**
 
-    /**
+    ```java
+     /**
      * @param m 表示背包的最大容量
      * @param n 表示商品个数
      * @param w 表示商品重量数组
@@ -33,7 +43,11 @@ public class Backpack01 {
         }
         return c;
     }
+    ```
+    
+* **Test**
 
+    ```java
     public static void main(String[] args) {
         int m = 10;
         int n = 5;
@@ -49,5 +63,10 @@ public class Backpack01 {
             }
         }
     }
-
-}
+    
+    //  0	6	6	6	6	6	6	6	6	6	
+    //  0	6	6	9	9	9	9	9	9	9	
+    //  0	6	6	9	9	9	9	11	11	14	
+    //  0	6	6	9	9	9	10	11	13	14	
+    //  0	6	6	9	9	12	12	15	15	15	
+    ```

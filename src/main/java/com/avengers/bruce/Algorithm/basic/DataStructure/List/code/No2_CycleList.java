@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.List.ListNode;
+package com.avengers.bruce.Algorithm.basic.DataStructure.List.code;
 
 public class No2_CycleList {
 
@@ -51,6 +51,5 @@ public class No2_CycleList {
         System.out.print(hasCycle(head));
 
     }
-
 
 }

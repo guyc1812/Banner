@@ -1,8 +1,5 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.Tree.BinaryTree;
+package com.avengers.bruce.Algorithm.basic.DataStructure.Tree.code;
 
-/*****
- * Created by apple on 2017/10/8.
- */
 public class No1_Depth {
 
     private static int maxDepth(TreeNode node) {
@@ -15,18 +12,7 @@ public class No1_Depth {
         return Math.max(left, right) + 1;
     }
 
-    private static int minDepth(TreeNode node) {
-
-        if (node == null) {
-            return 0;
-        }
-        int left = minDepth(node.left);
-        int right = minDepth(node.right);
-        return Math.min(left, right) + 1;
-
-    }
-
-    private static int getMinDepth(TreeNode root) {
+    private static int minDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -40,7 +26,9 @@ public class No1_Depth {
         if (root.left == null && root.right == null) {
             return 1;
         }
-        return Math.min(getMin(root.left), getMin(root.right)) + 1;
+        int left = getMin(root.left);
+        int right = getMin(root.right);
+        return Math.min(left, right) + 1;
     }
 
 
@@ -50,7 +38,7 @@ public class No1_Depth {
         TreeNode root = node.getTree();
 
         int maxD = maxDepth(root);
-        int minD = getMinDepth(root);
+        int minD = minDepth(root);
 
         System.out.println("min depth: " + minD);
         System.out.println("max depth: " + maxD);

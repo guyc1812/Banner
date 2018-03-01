@@ -3,6 +3,104 @@
     "index" : [
         {
             "category": "Banner",
+            "title": "Data Structure",
+            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/README.md",
+            "nav": "DataStructure",
+            "status": 310,
+            "items": [
+                {
+                    "category": "Banner",
+                    "title": "List",
+                    "path": "",
+                    "nav": "",
+                    "status": 310,
+                    "items": [
+                        {
+                            "category": "Banner",
+                            "title": "List Node",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/List/docs/ListNode.md",
+                            "nav": "DataStructure-List-Node",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Reverse List",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/List/docs/No1_ReverseList.md",
+                            "nav": "DataStructure-List-ReverseList",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Cycle List",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/List/docs/No2_CycleList.md",
+                            "nav": "DataStructure-List-CycleList",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Last n Lists",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/List/docs/No3_LastList.md",
+                            "nav": "DataStructure-List-LastNList",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Merge k Sorted Lists",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/List/docs/No4_MergeSortedList.md",
+                            "nav": "DataStructure-List-MergeKSortedLists",
+                            "status": 310,
+                            "items": []
+                        }
+                    ]
+                },
+                {
+                    "category": "Banner",
+                    "title": "Tree",
+                    "path": "",
+                    "nav": "",
+                    "status": 310,
+                    "items": [
+                        {
+                            "category": "Banner",
+                            "title": "Tree Node",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Tree/docs/TreeNode.md",
+                            "nav": "DataStructure-Tree-Node",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Depth of Tree",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Tree/docs/No1_Depth.md",
+                            "nav": "DataStructure-Tree-DepthOfTree",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Nodes Number of Tree",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Tree/docs/No2_NodeNum.md",
+                            "nav": "DataStructure-Tree-NodesNumber",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Balanced Tree",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Tree/docs/No3_IsBalanced.md",
+                            "nav": "DataStructure-Tree-isBalanced",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Traversal of Tree",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Tree/docs/No4_Traversal.md",
+                            "nav": "DataStructure-Tree-Traversal",
+                            "status": 310,
+                            "items": []
+                        }
+                    ]
+                }
+            ]
+        },{
+            "category": "Banner",
             "title":    "Sort",
             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/README.md",
             "nav":      "Sort",
@@ -19,21 +117,21 @@
                             "category": "Banner",
                             "title":    "Bubble Sort",
                             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/BubbleSort.md",
-                            "nav":      "ExchangeSort-BubbleSort",
+                            "nav":      "Sort-ExchangeSort-BubbleSort",
                             "status":   310,
                             "items":    []
                         },{
                             "category": "Banner",
                             "title":    "Quick Sort",
                             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/QuickSort.md",
-                            "nav":      "ExchangeSort-QuickSort",
+                            "nav":      "Sort-ExchangeSort-QuickSort",
                             "status":   310,
                             "items":    []
                         },{
                             "category": "Banner",
                             "title":    "Quick Sort Non Recursive",
                             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/NonRecursiveQuickSort.md",
-                            "nav":      "ExchangeSort-QuickSortNonRecursive",
+                            "nav":      "Sort-ExchangeSort-QuickSortNonRecursive",
                             "status":   310,
                             "items":    []
                         }
@@ -49,14 +147,14 @@
                             "category": "Banner",
                             "title":    "Insertion Sort",
                             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/InsertionSort/InsertionSort.md",
-                            "nav":      "InsertionSort-InsertionSort",
+                            "nav":      "Sort-InsertionSort-InsertionSort",
                             "status":   310,
                             "items":    []
                         },{
                             "category": "Banner",
                             "title":    "Shell Sort",
                             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/InsertionSort/ShellSort.md",
-                            "nav":      "InsertionSort-ShellSort",
+                            "nav":      "Sort-InsertionSort-ShellSort",
                             "status":   310,
                             "items":    []
                         }
@@ -72,14 +170,14 @@
                             "category": "Banner",
                             "title":    "Selection Sort",
                             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/SelectionSort/SelectionSort.md",
-                            "nav":      "SelectionSort-SelectionSort",
+                            "nav":      "Sort-SelectionSort-SelectionSort",
                             "status":   310,
                             "items":    []
                         },{
                             "category": "Banner",
                             "title":    "Heap Sort",
                             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/SelectionSort/HeapSort.md",
-                            "nav":      "SelectionSort-HeapSort",
+                            "nav":      "Sort-SelectionSort-HeapSort",
                             "status":   310,
                             "items":    []
                         }
@@ -88,18 +186,67 @@
                     "category": "Banner",
                     "title":    "Merge Sort",
                     "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/MergeSort.md",
-                    "nav":      "MergeSort-MergeSort",
+                    "nav":      "Sort-MergeSort-MergeSort",
                     "status":   310,
                     "items":    []
                 },{
                     "category": "Banner",
                     "title":    "Radix Sort",
                     "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/RadixSort.md",
-                    "nav":      "RadixSort-RadixSort",
+                    "nav":      "Sort-RadixSort-RadixSort",
                     "status":   310,
                     "items":    []
                 }
             ]
-        }   
+        },
+        {
+            "category": "Banner",
+            "title": "Dynamic Programming",
+            "path": "",
+            "nav": "",
+            "status": 310,
+            "items": [
+                {
+                    "category": "Banner",
+                    "title": "0-1 Backpack",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DP/Backpack01.md",
+                    "nav": "DP-01Backpack",
+                    "status": 310,
+                    "items": []
+                }
+            ]
+        },
+        {
+            "category": "Banner",
+            "title": "Greedy Algorithm",
+            "path": "",
+            "nav": "",
+            "status": 310,
+            "items": []
+        },
+        {
+            "category": "Banner",
+            "title": "String About",
+            "path": "",
+            "nav": "",
+            "status": 310,
+            "items": [
+                {
+                    "category": "Banner",
+                    "title": "SubSequence",
+                    "path": "",
+                    "nav": "",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "SubString",
+                    "path": "",
+                    "nav": "",
+                    "status": 310,
+                    "items": []
+                }
+            ]
+        }
     ]
 }

@@ -1,16 +1,27 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.List.ListNode;
+package com.avengers.bruce.Algorithm.basic.DataStructure.List.code;
 
 public class ListNode {
 
     ListNode next;
     char val;
 
-    ListNode() {
-    }
+    ListNode() {}
 
     ListNode(char x) {
         val = x;
         next = null;
+    }
+
+    ListNode add(ListNode node){
+
+        ListNode cur = next;
+        while (cur!=null){
+            cur = cur.next;
+        }
+
+        cur=node;
+
+        return this;
     }
 
     ListNode getList() {

@@ -1,20 +1,13 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.Tree.BinaryTree;
+package com.avengers.bruce.Algorithm.basic.DataStructure.Tree.code;
 
-/*****
- * 前中后序遍历
- * 平衡判断
- * 深度查询
- * 层次遍历
- *
- */
+
 public class TreeNode {
 
     int val;
     TreeNode left;
     TreeNode right;
 
-    TreeNode() {
-    }
+    TreeNode() {}
 
     TreeNode(int x) {
         this.val = x;
@@ -43,6 +36,5 @@ public class TreeNode {
         return T1;
 
     }
-
 
 }

@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.List.ListNode;
+package com.avengers.bruce.Algorithm.basic.DataStructure.List.code;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,5 +44,6 @@ public class No4_MergeSortedList {
         }
         return dummy.next;
     }
+
 
 }

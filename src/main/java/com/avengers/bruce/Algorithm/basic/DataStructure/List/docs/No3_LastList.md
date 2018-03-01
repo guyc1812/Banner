@@ -1,7 +1,8 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.List.ListNode;
+# Last n nodes in list
 
-public class No3_LastList {
+* **Clip last n nodes**
 
+    ```java
     private static ListNode nthToLast(ListNode head, int n) {
 
         if (head == null || n < 1) {
@@ -24,15 +25,21 @@ public class No3_LastList {
         return l1;
 
     }
+    ```
 
+* **Test**
+    ```java
     public static void main(String[] args) {
 
         ListNode node = new ListNode();
         ListNode head = new ListNode().getList();
 
+        node.printList(head);
+        System.out.print("Last 5 nodes: ");
         node.printList(nthToLast(head, 5));
+      
+        // S -> T -> R -> A -> N -> G -> E
+        // Last 5 nodes: R -> A -> N -> G -> E
 
     }
-
-
-}
+    ```

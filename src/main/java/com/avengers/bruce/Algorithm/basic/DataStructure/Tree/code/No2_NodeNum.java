@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DataStructure.Tree.BinaryTree;
+package com.avengers.bruce.Algorithm.basic.DataStructure.Tree.code;
 
 public class No2_NodeNum {
 
@@ -35,9 +35,9 @@ public class No2_NodeNum {
         if (k == 1) {
             return 1;
         }
-        int numsLeft = numOfKLevelNode(root.left, k - 1);
-        int numsRight = numOfKLevelNode(root.right, k - 1);
-        return numsLeft + numsRight;
+        int left = numOfKLevelNode(root.left, k - 1);
+        int right = numOfKLevelNode(root.right, k - 1);
+        return left + right;
 
     }
 
@@ -49,13 +49,17 @@ public class No2_NodeNum {
 
         int numOfTreeNode = numOfTreeNode(root);
         int numOfLeafNode = numOfLeafNode(root);
-        int numOfKLevelNode = numOfKLevelNode(root, 4);
+        int numOfKLevelNode = numOfKLevelNode(root, 3);
 
         System.out.println("num of TreeNode: " + numOfTreeNode);
         System.out.println("num of LeafNode: " + numOfLeafNode);
         System.out.println("num of K Level : " + numOfKLevelNode);
 
     }
+
+    // num of TreeNode: 7
+    // num of LeafNode: 3
+    // num of K Level : 3
 
 
 }
