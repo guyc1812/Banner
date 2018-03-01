@@ -7,10 +7,12 @@
 
 * **Complexity**
 
+    ```
     Average: O(n^2)<br>
     Best:    O(n)<br>
     Worst:   O(n^2) 
-
+    ```
+    
     Case 1. O(n) (Best case)<br> 
     If the array is already sorted, and that means that no swap occurred and only 1 iteration of n elements.
        

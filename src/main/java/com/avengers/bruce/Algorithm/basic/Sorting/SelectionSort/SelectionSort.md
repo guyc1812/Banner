@@ -7,10 +7,12 @@
     
 * **Complexity**
 
+    ```
     Average: O(n^2)<br>
     Best:    O(n^2)<br>
     Worst:   O(n^2)
-
+    ```
+    
 * **Demonstration**
 
     ```bash

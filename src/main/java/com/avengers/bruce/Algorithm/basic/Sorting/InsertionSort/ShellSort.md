@@ -6,9 +6,11 @@
 
 * **Complexity**
 
+    ```
     Average: O(nlog(n)) ~ O(n^2)<br>
     Best:    O(n^1.3)<br>
     Worst:   O(n^2)    
+    ```
     
 * **Demonstration**
 

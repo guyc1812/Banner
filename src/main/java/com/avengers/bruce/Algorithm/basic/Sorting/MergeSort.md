@@ -6,9 +6,11 @@
     
 * **Complexity**
 
+    ```
     Average: O(nlog(n))<br>
     Best:    O(nlog(n))<br>
     Worst:   O(nlog(n))
+    ```
     
 * **Demonstration**
 

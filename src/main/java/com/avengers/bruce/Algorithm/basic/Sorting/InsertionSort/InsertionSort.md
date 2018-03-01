@@ -6,9 +6,11 @@
 
 * **Complexity**
 
+    ```
     Average: O(n^2)<br>
     Best:    O(n)<br>
     Worst:   O(n^2) 
+    ```
     
 * **Demonstration**
 

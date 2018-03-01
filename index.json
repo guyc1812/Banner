@@ -97,6 +97,14 @@
                             "items": []
                         }
                     ]
+                },
+                {
+                    "category": "Banner",
+                    "title": "Graph",
+                    "path": "",
+                    "nav": "",
+                    "status": 310,
+                    "items": []
                 }
             ]
         },{

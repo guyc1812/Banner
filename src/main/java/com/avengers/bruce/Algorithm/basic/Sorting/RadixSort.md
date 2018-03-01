@@ -5,12 +5,14 @@
     YES
     
 * **Complexity**
-
+    
+    ```
     Average: O(nb)<br>
     Best:    O(nb)<br>
     Worst:   O(nb)
     
     b:bucket
+    ```
     
 * **Demonstration**
 
