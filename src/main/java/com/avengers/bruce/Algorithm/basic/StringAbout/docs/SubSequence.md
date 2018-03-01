@@ -12,7 +12,7 @@
         int len2 = str2.length();
         int c[][] = new int[len1 + 1][len2 + 1];
 
-        // str1为列，str2为行
+        // str1 -> column, str2 -> row
         for (int i = 0; i <= len1; i++) {
             for (int j = 0; j <= len2; j++) {
                 if (i == 0 || j == 0) {
