@@ -40,8 +40,8 @@ public class Backpack01 {
         int w[] = {2, 2, 6, 5, 4};
         int p[] = {6, 3, 5, 4, 6};
         int c[][] = BackPack_Solution(m, n, w, p);
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= m; j++) {
                 System.out.print(c[i][j] + "\t");
                 if (j == m) {
                     System.out.println();
