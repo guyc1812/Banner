@@ -242,15 +242,15 @@
                 {
                     "category": "Banner",
                     "title": "SubSequence",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/basic/StringAbout/docs/SubSequence.md",
+                    "nav": "String-SubSequence",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "SubString",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/basic/StringAbout/docs/SubString.md",
+                    "nav": "String-SubString",
                     "status": 310,
                     "items": []
                 }
