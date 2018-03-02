@@ -1,5 +1,7 @@
 package com.avengers.bruce.Algorithm.basic.StringAbout.LCS;
 
+import com.avengers.bruce.Algorithm.util.Matrix;
+
 public class SubString {
 
     private static String lcs(String str1, String str2) {
@@ -30,6 +32,8 @@ public class SubString {
                 }
             }
         }
+
+        Matrix.print(c);
 
         return str1.substring(maxIndex - maxNum, maxIndex);
     }

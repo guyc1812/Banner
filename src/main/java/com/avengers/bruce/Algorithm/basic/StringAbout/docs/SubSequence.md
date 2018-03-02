@@ -56,6 +56,15 @@
         String str2 = "BDCABA";
 
         int[][] c = lcs(str1, str2);
+        Matrix.print(c);
+        // 0 0 0 0 0 0 0
+        // 0 0 0 0 1 1 1
+        // 0 1 1 1 1 2 2
+        // 0 1 1 2 2 2 2
+        // 0 1 1 2 2 3 3
+        // 0 1 2 2 2 3 3
+        // 0 1 2 2 3 3 4
+        // 0 1 2 2 3 4 4
 
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();
@@ -66,7 +75,7 @@
         getLCS(c, arr1, arr2, len1, len2, lcs);
 
         System.out.println(lcs);
-        //BCBA
+        // BCBA
 
     }
     ```

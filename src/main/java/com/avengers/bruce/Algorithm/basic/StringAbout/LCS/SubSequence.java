@@ -1,5 +1,7 @@
 package com.avengers.bruce.Algorithm.basic.StringAbout.LCS;
 
+import com.avengers.bruce.Algorithm.util.Matrix;
+
 import static java.lang.Math.max;
 
 public class SubSequence {
@@ -48,6 +50,7 @@ public class SubSequence {
         String str2 = "BDCABA";
 
         int[][] c = lcs(str1, str2);
+        Matrix.print(c);
 
         char[] arr1 = str1.toCharArray();
         char[] arr2 = str2.toCharArray();
