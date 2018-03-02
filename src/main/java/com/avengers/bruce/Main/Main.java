@@ -35,8 +35,5 @@ public class Main {
         // left: 7      right: 8
         // left: 56     right: 78
         // left: 01234  right: 5678
-
-
-
     }
 }

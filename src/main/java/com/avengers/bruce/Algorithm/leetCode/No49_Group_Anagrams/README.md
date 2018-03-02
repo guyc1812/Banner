@@ -18,12 +18,6 @@
     
 * **Solution**
 
-    ```java
-    
-    ```
-
-* **Test**
-
     ```javascript
     let test = ["eat", "tea", "tan", "ate", "nat", "bat"];
     let tmp = {};
