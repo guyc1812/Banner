@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DP;
+package com.avengers.bruce.Algorithm.basic.DP.Backpack01;
 
 public class Backpack01 {
 
