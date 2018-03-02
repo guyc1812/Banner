@@ -273,8 +273,8 @@
                 {
                     "category": "Banner",
                     "title": "1. Two Sum",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No1_TwoSum/README.md",
+                    "nav": "LeetCode-TwoSum",
                     "status": 310,
                     "items": []
                 },{
