@@ -274,70 +274,70 @@
                     "category": "Banner",
                     "title": "1. Two Sum",
                     "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No1_TwoSum/README.md",
-                    "nav": "LeetCode-TwoSum",
+                    "nav": "LeetCode-No1_TwoSum",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "2. Add Two Numbers",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No2_AddTwoNumbers/README.md",
+                    "nav": "LeetCode-No2_AddTwoNumbers",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "3. Longest Substring Without Repeating Characters",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No3_Longest_Substring_Without_Repeating_Characters/README.md",
+                    "nav": "LeetCode-No3_Longest_Substring_Without_Repeating_Characters",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "4. Median of Two Sorted Arrays",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No4_Median_of_Two_Sorted_Arrays/README.md",
+                    "nav": "LeetCode-No4_Median_of_Two_Sorted_Arrays",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "5. Longest Palindromic Substring",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No5_Longest_Palindromic_Substring/README.md",
+                    "nav": "LeetCode-No5_Longest_Palindromic_Substring",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "6. Zigzag Conversion",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No6_Zigzag_Convertion/README.md",
+                    "nav": "LeetCode-No6_Zigzag_Convertion",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "7. Reverse Integer",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No7_Reverse_Integer/README.md",
+                    "nav": "LeetCode-No7_Reverse_Integer",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "23. Merge K Sorted List",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No23_MergeKSortedList/README.md",
+                    "nav": "LeetCode-No23_MergeKSortedList",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "49. Group Anagrams",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No49_Group_Anagrams/README.md",
+                    "nav": "LeetCode-No49_Group_Anagrams",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "53. (DP) Max SubArray",
-                    "path": "",
-                    "nav": "",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No53_MaxSubArray/README.md",
+                    "nav": "LeetCode-No53_MaxSubArray",
                     "status": 310,
                     "items": []
                 }
@@ -346,8 +346,8 @@
         {
             "category": "Banner",
             "title": "NTES find T",
-            "path": "",
-            "nav": "",
+            "path": "src/main/java/com/avengers/bruce/Algorithm/Interview/NTES/FindT/README.md",
+            "nav": "NTES-FindT",
             "status": 310,
             "items": []
         }

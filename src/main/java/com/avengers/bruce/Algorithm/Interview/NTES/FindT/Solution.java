@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.Interview.NTES;
+package com.avengers.bruce.Algorithm.Interview.NTES.FindT;
 
 /*****
  * Created by apple on 2017/12/10.

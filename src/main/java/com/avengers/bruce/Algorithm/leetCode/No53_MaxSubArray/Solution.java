@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.leetCode.No53_maxSubArray;
+package com.avengers.bruce.Algorithm.leetCode.No53_MaxSubArray;
 
 public class Solution {
 
