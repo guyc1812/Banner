@@ -1,5 +1,5 @@
-let test = [1, 1, 1];
-let target = 2;
+let test = [1,3,2,6,1,2];
+let target = 3;
 
 let pair = 0;
 

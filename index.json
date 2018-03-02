@@ -221,6 +221,13 @@
                     "nav": "DP-01Backpack",
                     "status": 310,
                     "items": []
+                },{
+                    "category": "Banner",
+                    "title": "Coin Change",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DP/CoinChange/CoinChange.md",
+                    "nav": "DP-CoinChange",
+                    "status": 310,
+                    "items": []
                 }
             ]
         },

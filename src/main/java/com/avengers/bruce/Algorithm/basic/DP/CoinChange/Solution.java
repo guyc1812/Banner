@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.DP.Coin;
+package com.avengers.bruce.Algorithm.basic.DP.CoinChange;
 
 /*****
  * Created by apple on 2017/10/26.

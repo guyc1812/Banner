@@ -146,8 +146,7 @@ public class Solution {
 
 
     public static char[][] rotate90(char[][] in) {
-        int m = in.length,
-                n = in[0].length;
+        int m = in.length, n = in[0].length;
 
         char[][] res = new char[n][m];
 
