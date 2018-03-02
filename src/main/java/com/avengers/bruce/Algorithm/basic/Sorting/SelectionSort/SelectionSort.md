@@ -8,8 +8,8 @@
 * **Complexity**
 
     ```
-    Average: O(n^2)<br>
-    Best:    O(n^2)<br>
+    Average: O(n^2)
+    Best:    O(n^2)
     Worst:   O(n^2)
     ```
     

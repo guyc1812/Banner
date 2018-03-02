@@ -217,7 +217,7 @@
                 {
                     "category": "Banner",
                     "title": "0-1 Backpack",
-                    "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DP/Backpack01.md",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DP/Backpack01/Backpack01.md",
                     "nav": "DP-01Backpack",
                     "status": 310,
                     "items": []

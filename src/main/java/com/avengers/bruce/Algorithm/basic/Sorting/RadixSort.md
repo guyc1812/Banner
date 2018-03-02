@@ -7,8 +7,8 @@
 * **Complexity**
     
     ```
-    Average: O(nb)<br>
-    Best:    O(nb)<br>
+    Average: O(nb)
+    Best:    O(nb)
     Worst:   O(nb)
     
     b:bucket

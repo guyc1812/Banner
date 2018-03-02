@@ -7,8 +7,8 @@
 * **Complexity**
 
     ```
-    Average: O(nlog(n))<br>
-    Best:    O(nlog(n))<br>
+    Average: O(nlog(n))
+    Best:    O(nlog(n))
     Worst:   O(n^2) 
     ```
     
