@@ -2,6 +2,8 @@
 
 * **Demonstration**
 
+    ![image](http://guyuchen.com/deadpool/images/lcs.gif)
+
 * **Solution**
     
     ```java
