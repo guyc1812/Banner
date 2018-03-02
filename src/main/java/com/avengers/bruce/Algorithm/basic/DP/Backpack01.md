@@ -14,10 +14,10 @@
 
     ```java
      /**
-     * @param m 表示背包的最大容量
-     * @param n 表示商品个数
-     * @param w 表示商品重量数组
-     * @param p 表示商品价值数组
+     * @param m 表示背包的最大容量  10
+     * @param n 表示商品个数       5 
+     * @param w 表示商品重量数组    2, 2, 6, 5, 4
+     * @param p 表示商品价值数组    6, 3, 5, 4, 6
      */
     private static int[][] BackPack_Solution(int m, int n, int[] w, int[] p) {
         //c[i][v]表示前i件物品恰放入一个重量为m的背包可以获得的最大价值
