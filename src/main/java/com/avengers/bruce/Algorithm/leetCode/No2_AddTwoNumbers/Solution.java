@@ -70,6 +70,18 @@ public class Solution {
         l28.next = l29;
 
         ListNode result = addTwoNumbers(l1, l2);
+
+        // li: 1489421342
+        // l2: 0215145465
+
+        do {
+            System.out.print(result.val+" ");
+            result = result.next;
+        }while (result!=null);
+
+        // 7086654071
+
+
     }
 }
 
