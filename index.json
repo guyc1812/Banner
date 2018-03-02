@@ -4,8 +4,8 @@
         {
             "category": "Banner",
             "title": "Data Structure",
-            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/README.md",
-            "nav": "DataStructure",
+            "path": "",
+            "nav": "",
             "status": 310,
             "items": [
                 {
