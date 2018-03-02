@@ -1,5 +1,7 @@
 package com.avengers.bruce.Algorithm.leetCode.No53_MaxSubArray;
 
+import java.util.Arrays;
+
 public class Solution {
 
     private static int maxSubArray(int[] a) {
@@ -20,16 +22,17 @@ public class Solution {
 
         }
 
+        System.out.println(Arrays.toString(dp));
+
         return max;
 
     }
 
     public static void main(String[] args) {
-
         int[] a = {1, 2, 3, -3, -2, 5, 1};
         int result = maxSubArray(a);
         System.out.println(result);
-
+        // 7
     }
 
 }

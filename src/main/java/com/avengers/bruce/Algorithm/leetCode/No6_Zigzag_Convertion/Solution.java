@@ -7,8 +7,8 @@ public class Solution {
         if (numRows == 1) {
             return s;
         } else {
-            int column = s.length();
 
+            int column = s.length();
             char[][] z = new char[numRows][column];
 
             StringBuilder sb = new StringBuilder();
@@ -38,12 +38,11 @@ public class Solution {
 
         }
 
-
     }
 
     public static void main(String[] arg) {
         String str = "PAYPALISHIRING";
-        int numRows = 2;
+        int numRows = 3;
         String output = convert(str, numRows);
         System.out.print(output);
         //PAHNAPLSIIGYIR

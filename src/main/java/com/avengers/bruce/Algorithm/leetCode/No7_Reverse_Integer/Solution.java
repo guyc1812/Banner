@@ -4,24 +4,6 @@ public class Solution {
 
     private static int reverse(int x) {
 
-        // StringBuilder sb = new StringBuilder();
-        //
-        // try{
-        //
-        //     if(x>=0){
-        //         sb.append(x).reverse();
-        //     }else {
-        //         sb.append("-");
-        //         StringBuilder sbb = new StringBuilder();
-        //         sb.append(sbb.append(-x).reverse().toString());
-        //     }
-        //
-        //     return Integer.parseInt(sb.toString());
-        //
-        // }catch(Exception e){
-        //     return 0;
-        // }
-
         int result = 0;
 
         while (x != 0) {
@@ -42,6 +24,10 @@ public class Solution {
 
         int result = reverse(1534236469);
         System.out.println(result);
+        // 0
 
+        int result2 = reverse(1534236461);
+        System.out.println(result2);
+        // 1646324351
     }
 }
