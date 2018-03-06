@@ -62,6 +62,20 @@
                     "items": [
                         {
                             "category": "Banner",
+                            "title": "Tree",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Tree/docs/Tree.md",
+                            "nav": "DataStructure-Tree",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "Black Red Tree",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Tree/docs/BRTree.md",
+                            "nav": "DataStructure-BRTree",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
                             "title": "Tree Node",
                             "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Tree/docs/TreeNode.md",
                             "nav": "DataStructure-Tree-Node",
