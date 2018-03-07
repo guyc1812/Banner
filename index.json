@@ -303,7 +303,7 @@
                 },{
                     "category": "Banner",
                     "title": "Median of Two Sorted Arrays",
-                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No4_Median_of_Two_Sorted_Arrays/README.md",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DC/MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.md",
                     "nav": "DC-MedianOfTwoSortedArrays",
                     "status": 310,
                     "items": []
