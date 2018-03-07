@@ -118,7 +118,40 @@
                     "path": "",
                     "nav": "",
                     "status": 310,
-                    "items": []
+                    "items": [
+                        {
+                            "category": "Banner",
+                            "title": "Graph Matrix",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Graph/docs/GraphMatrix.md",
+                            "nav": "DataStructure-Graph-GraphMatrix",
+                            "status": 310,
+                            "items": []
+                        },
+                        {
+                            "category": "Banner",
+                            "title": "DFS",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Graph/docs/DFS.md",
+                            "nav": "DataStructure-Graph-DFS",
+                            "status": 310,
+                            "items": []
+                        },
+                        {
+                            "category": "Banner",
+                            "title": "Graph",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Graph/docs/BFS.md",
+                            "nav": "DataStructure-Graph-BFS",
+                            "status": 310,
+                            "items": []
+                        },
+                        {
+                            "category": "Banner",
+                            "title": "Longest Increasing Path",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Graph/docs/LongestIncreasingPathInAMatrix.md",
+                            "nav": "DataStructure-Graph-LongestIncreasingPathInAMatrix",
+                            "status": 310,
+                            "items": []
+                        }
+                    ]
                 }
             ]
         },{
@@ -145,17 +178,33 @@
                         },{
                             "category": "Banner",
                             "title":    "Quick Sort",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/QuickSort.md",
-                            "nav":      "Sort-ExchangeSort-QuickSort",
+                            "path":     "",
+                            "nav":      "",
                             "status":   310,
-                            "items":    []
-                        },{
-                            "category": "Banner",
-                            "title":    "Quick Sort Non Recursive",
-                            "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/NonRecursiveQuickSort.md",
-                            "nav":      "Sort-ExchangeSort-QuickSortNonRecursive",
-                            "status":   310,
-                            "items":    []
+                            "items":    [
+                                {
+                                    "category": "Banner",
+                                    "title":    "Partition",
+                                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/QuickSort/Partition.md",
+                                    "nav":      "Sort-ExchangeSort-QuickSort-Partition",
+                                    "status":   310,
+                                    "items":    []
+                                },{
+                                    "category": "Banner",
+                                    "title":    "Recursive way",
+                                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/QuickSort/QuickSort.md",
+                                    "nav":      "Sort-ExchangeSort-QuickSort-Recursive",
+                                    "status":   310,
+                                    "items":    []
+                                },{
+                                    "category": "Banner",
+                                    "title":    "Non Recursive way",
+                                    "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/ExchangeSort/QuickSort/NonRecursiveQuickSort.md",
+                                    "nav":      "Sort-ExchangeSort-QuickSort-NonRecursive",
+                                    "status":   310,
+                                    "items":    []
+                                }
+                            ]
                         }
                     ]
                 },{
@@ -218,6 +267,46 @@
                     "nav":      "Sort-RadixSort-RadixSort",
                     "status":   310,
                     "items":    []
+                }
+            ]
+        },
+        {
+            "category": "Banner",
+            "title": "Divide and Conquer",
+            "path": "",
+            "nav": "",
+            "status": 310,
+            "items": [
+                {
+                    "category": "Banner",
+                    "title": "Order Statistic",
+                    "path": "",
+                    "nav": "",
+                    "status": 310,
+                    "items": [
+                        {
+                            "category": "Banner",
+                            "title": "Random Pivot",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DC/OrderStatistic/RandomPivot/README.md",
+                            "nav": "DC-OS-RandomPivot",
+                            "status": 310,
+                            "items": []
+                        },{
+                            "category": "Banner",
+                            "title": "BFPRT",
+                            "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DC/OrderStatistic/BFPRT/README.md",
+                            "nav": "DC-OS-BFPRT",
+                            "status": 310,
+                            "items": []
+                        }
+                    ]
+                },{
+                    "category": "Banner",
+                    "title": "Median of Two Sorted Arrays",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No4_Median_of_Two_Sorted_Arrays/README.md",
+                    "nav": "DC-MedianOfTwoSortedArrays",
+                    "status": 310,
+                    "items": []
                 }
             ]
         },

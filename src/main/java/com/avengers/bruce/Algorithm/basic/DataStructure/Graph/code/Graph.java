@@ -55,5 +55,35 @@ public class Graph {
         return ch - 65;
     }
 
+    public int getVexSize() {
+        return vexSize;
+    }
 
+    public void setVexSize(int vexSize) {
+        this.vexSize = vexSize;
+    }
+
+    public char[] getVertexes() {
+        return vertexes;
+    }
+
+    public void setVertexes(char[] vertexes) {
+        this.vertexes = vertexes;
+    }
+
+    public char[][] getEdges() {
+        return edges;
+    }
+
+    public void setEdges(char[][] edges) {
+        this.edges = edges;
+    }
+
+    public int[][] getMatrix() {
+        return matrix;
+    }
+
+    public void setMatrix(int[][] matrix) {
+        this.matrix = matrix;
+    }
 }

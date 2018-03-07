@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.Sorting.ExchangeSort;
+package com.avengers.bruce.Algorithm.basic.Sorting.ExchangeSort.QuickSort;
 
 import java.util.Arrays;
 

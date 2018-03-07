@@ -28,19 +28,29 @@
     
     ```java
     private static void quickSort(int[] a, int start, int end) {
+    
+        //use stack to simulate recursion
         LinkedList<Integer> stack = new LinkedList<>();
+        
         if (start < end) {
+          
             stack.push(end);
             stack.push(start);
+            
             while (!stack.isEmpty()) {
+            
                 int l = stack.pop();
                 int r = stack.pop();
+                
+                //point od division
                 int index = partition(a, l, r);
-                if (l < index - 1) {
+                
+                if (l < index - 1) {  //left part
                     stack.push(index - 1);
                     stack.push(l);
                 }
-                if (r > index + 1) {
+                
+                if (r > index + 1) {  //right part
                     stack.push(r);
                     stack.push(index + 1);
                 }
@@ -48,26 +58,7 @@
         }
     }
     ```
-    
-    ```java
-    private static int partition(int[] a, int start, int end) {
 
-        int pivot = a[start];
-        while (start < end) {
-            while (start < end && a[end] >= pivot)
-                end--;
-            a[start] = a[end];
-            while (start < end && a[start] <= pivot)
-                start++;
-            a[end] = a[start];
-        }
-        a[start] = pivot;
-
-        return start;
-      
-    }
-    ```
-    
     ```java
     public static void main(String[] args) {
         int[] array = {1, 3, 9, 10, 2, 7, 8, 6};

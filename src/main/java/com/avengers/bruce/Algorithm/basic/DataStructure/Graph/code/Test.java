@@ -7,23 +7,29 @@ public class Test {
 
         char[] vertexes = {'A', 'B', 'C', 'D', 'E', 'F', 'G','H','I','J','K'};
         char[][] edges = new char[][]{
-                {'A', 'C', '8'},
-                {'A', 'D', '8'},
-                {'A', 'F', '8'},
-                {'B', 'C', '8'},
-                {'C', 'D', '8'},
-                {'E', 'G', '8'},
-                {'D', 'G', '8'},
-                {'I', 'J', '8'},
-                {'J', 'G', '8'}
+                {'A', 'C', '1'},
+                {'A', 'D', '1'},
+                {'A', 'F', '1'},
+                {'B', 'C', '1'},
+                {'C', 'D', '1'},
+                {'E', 'G', '1'},
+                {'D', 'G', '1'},
+                {'I', 'J', '1'},
+                {'J', 'G', '1'},
+                {'H', 'G', '1'},
+                {'H', 'K', '1'}
         };
 
         Graph graph = new Graph(vertexes,edges);
-        graph.print();
-        graph.genDigraph();
-        graph.print();
         graph.genUnDigraph();
-        graph.print();
+
+        System.out.println("DFS by stack way:");
+        DFS.dfsNonRecursive(graph);
+        System.out.println("DFS by recursive way:");
+        DFS.dfsRecursive(graph);
+
+        System.out.println("BFS:");
+        BFS.bfsNonRecursive(graph);
 
     }
 }

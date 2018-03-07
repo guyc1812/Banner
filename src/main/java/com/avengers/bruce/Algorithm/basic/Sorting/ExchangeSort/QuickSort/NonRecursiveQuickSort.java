@@ -1,4 +1,4 @@
-package com.avengers.bruce.Algorithm.basic.Sorting.ExchangeSort;
+package com.avengers.bruce.Algorithm.basic.Sorting.ExchangeSort.QuickSort;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -30,21 +30,24 @@ public class NonRecursiveQuickSort {
 
     private static int partition(int[] a, int start, int end) {
 
-        int s = start;
-        int e = end;
+        int l = start;
+        int r = end;
 
         int pivot = a[start];
-        while (start < end) {
-            while (start < end && a[end] >= pivot)
-                end--;
-            a[start] = a[end];
-            while (start < end && a[start] <= pivot)
-                start++;
-            a[end] = a[start];
-        }
-        a[start] = pivot;
 
-        System.out.println("partition round "+ time++ +" from "+s+" to "+e+" : "+Arrays.toString(a)+"  pivot : "+pivot);
+        while (l < r) {
+
+            while (l < r && a[r] >= pivot) r--;
+            a[l] = a[r];
+
+            while (l < r && a[l] <= pivot) l++;
+            a[r] = a[l];
+
+        }
+
+        a[l] = pivot;
+
+        System.out.println("partition round "+ time++ +" from "+l+" to "+r+" : "+Arrays.toString(a)+"  pivot : "+pivot);
 
         return start;
     }
