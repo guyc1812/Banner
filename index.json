@@ -137,7 +137,7 @@
                         },
                         {
                             "category": "Banner",
-                            "title": "Graph",
+                            "title": "BFS",
                             "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DataStructure/Graph/docs/BFS.md",
                             "nav": "DataStructure-Graph-BFS",
                             "status": 310,
