@@ -443,6 +443,13 @@
                     "nav": "LeetCode-No53_MaxSubArray",
                     "status": 310,
                     "items": []
+                },{
+                    "category": "Banner",
+                    "title": "329. Longest Increasing Path",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No329_LongestIncreasingPathInAMatrix/README.md",
+                    "nav": "LeetCode-No329_LongestIncreasingPathInAMatrix",
+                    "status": 310,
+                    "items": []
                 }
             ]
         },
