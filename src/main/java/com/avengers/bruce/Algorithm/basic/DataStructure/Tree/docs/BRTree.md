@@ -142,4 +142,4 @@ public class BRNode <T extends Comparable<T>>{
 
 ## 区间树
 
-![image](http://guyuchen.com/deadpool/images/rangeTree.png.)
+![image](http://guyuchen.com/deadpool/images/rangeTree.png)
