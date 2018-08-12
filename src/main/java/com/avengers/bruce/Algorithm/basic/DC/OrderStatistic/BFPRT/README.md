@@ -17,7 +17,7 @@ BFPRT算法步骤如下：
 
 **最坏时间复杂度为O(n)**
 
-![BFPRT](http://guyuchen.com/deadpool/images/BFPRT.png)
+![BFPRT](https://oss.guyuchen.com/deadpool/images/BFPRT.png)
 
 ## Code
 

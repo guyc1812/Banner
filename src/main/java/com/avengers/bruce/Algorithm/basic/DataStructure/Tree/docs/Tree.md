@@ -4,7 +4,7 @@
 
 * 关于存储
 
-    ![image](http://guyuchen.com/deadpool/images/cipan.jpg)
+    ![image](https://oss.guyuchen.com/deadpool/images/cipan.jpg)
     
     磁盘是一个扁平的圆盘，盘面上有许多称为磁道的圆圈，数据就记录在这些磁道上。<br>
     磁盘可以是单片的，也可以是由若干盘片组成的盘组，每一盘片上有两个面。<br>
@@ -92,7 +92,7 @@
 
 ### B Tree
 
-![image](http://guyuchen.com/deadpool/images/btree.jpg)
+![image](https://oss.guyuchen.com/deadpool/images/btree.jpg)
 
 * **性质**
 
@@ -108,35 +108,35 @@
     1. 插入以下字符字母到一棵空的B树中（非根结点关键字数小于2就合并，超过4就分裂）：C N G A H E K Q M F W L T Z D P R X Y S <br>
         首先，结点空间足够，4个字母插入相同的结点中，如下图： 
         
-        ![image](http://guyuchen.com/deadpool/images/btree1.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree1.jpg)
             
     1. 试着插入H时，结点发现空间不够，以致将其分裂成2个结点，移动中间元素G上移到新的根结点中，在实现过程中，把A和C留在当前结点中，而H和N放置新的其右邻居结点中。如下图：
     
-        ![image](http://guyuchen.com/deadpool/images/btree2.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree2.jpg)
         
     1. 插入E,K,Q时，不需要任何分裂操作 
     
-        ![image](http://guyuchen.com/deadpool/images/btree3.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree3.jpg)
     
     1. 插入M需要一次分裂，注意M恰好是中间关键字元素，以致向上移到父节点中
     
-        ![image](http://guyuchen.com/deadpool/images/btree4.jpg)        
+        ![image](https://oss.guyuchen.com/deadpool/images/btree4.jpg)        
     
     1. 插入F,W,L,T不需要任何分裂操作 
     
-        ![image](http://guyuchen.com/deadpool/images/btree5.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree5.jpg)
 
     1. 插入Z时，最右的叶子结点空间满了，需要进行分裂操作，中间元素T上移到父节点中，注意通过上移中间元素，树最终还是保持平衡，分裂结果的结点存在2个关键字元素。 
     
-        ![image](http://guyuchen.com/deadpool/images/btree6.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree6.jpg)
     
     1. 插入D时，导致最左边的叶子结点被分裂，D恰好也是中间元素，上移到父节点中，然后字母P,R,X,Y陆续插入不需要任何分裂操作（树中至多5个孩子）。 
     
-        ![image](http://guyuchen.com/deadpool/images/btree7.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree7.jpg)
 
     1. 最后，当插入S时，含有N,P,Q,R的结点需要分裂，把中间元素Q上移到父节点中，但是情况来了，父节点中空间已经满了，所以也要进行分裂，将父节点中的中间元素M上移到新形成的根结点中，注意以前在父节点中的第三个指针在修改后包括D和G节点中。这样具体插入操作的完成，下面介绍删除操作，删除操作相对于插入操作要考虑的情况多点。 
     
-        ![image](http://guyuchen.com/deadpool/images/btree8.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree8.jpg)
 
 * **删除**
 
@@ -153,18 +153,18 @@
     
     1. 首先删除元素H，当然首先查找H，H在一个叶子结点中，且该叶子结点元素数目3大于最小元素数目ceil(m/2)-1=2，则操作很简单，只需要移动K至原来H的位置，移动L至K的位置（也就是结点中删除元素后面的元素向前移动）
     
-        ![image](http://guyuchen.com/deadpool/images/btree9.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree9.jpg)
     
     1. 下一步，删除T,因为T没有在叶子结点中，而是在中间结点中找到，发现他的继承者W(字母升序的下个元素)，将W上移到T的位置，然后将原包含W的孩子结点中的W进行删除，这里恰好删除W后，该孩子结点中元素个数大于2，无需进行合并操作。
     
-        ![image](http://guyuchen.com/deadpool/images/btree10.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree10.jpg)
         
     1. 下一步删除R，R在叶子结点中,但是该结点中元素数目为2，删除导致只有1个元素，已经小于最小元素数目ceil(5/2)-1=2,<br>
         而由前面我们已经知道：如果其某个相邻兄弟结点中比较丰满（元素个数大于ceil(5/2)-1=2），则可以向父结点借一个元素，然后将最丰满的相邻兄弟结点中上移最后或最前一个元素到父节点中（有没有看到红黑树中左旋操作的影子?），<br>
         在这个实例中，右相邻兄弟结点中比较丰满（3个元素大于2），所以先向父节点借一个元素W下移到该叶子结点中，代替原来S的位置，S前移；<br>
         然后X在相邻右兄弟结点中上移到父结点中，最后在相邻右兄弟结点中删除X，后面元素前移。
 
-        ![image](http://guyuchen.com/deadpool/images/btree11.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree11.jpg)
         
     1. 最后一步删除E，删除后会导致很多问题，因为E所在的结点数目刚好达标，刚好满足最小元素个数（ceil(5/2)-1=2）,<br>
         而相邻的兄弟结点也是同样的情况，删除一个元素都不能满足条件，所以需要该节点与某相邻兄弟结点进行合并操作；<br>
@@ -173,7 +173,7 @@
         所以在该实例中，首先将父节点中的元素D下移到已经删除E而只有F的结点中，<br>
         然后将含有D和F的结点和含有A,C的相邻兄弟结点进行合并成一个结点。
         
-        ![image](http://guyuchen.com/deadpool/images/btree12.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree12.jpg)
         
     1. 对于这种特殊情况，会发现父节点只包含一个元素G，没达标（因为非根节点包括叶子结点的关键字数n必须满足于2=<n<=4，而此处的n=1），这是不能够接受的。<br>
         如果这个问题结点的相邻兄弟比较丰满，则可以向父结点借一个元素。<br>
@@ -183,17 +183,17 @@
         所以在这个实例中，没有办法去借一个元素，只能与兄弟结点进行合并成一个结点，<br>
         而根结点中的唯一元素M下移到子结点，这样，树的高度减少一层。
         
-        ![image](http://guyuchen.com/deadpool/images/btree13.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree13.jpg)
         
     * 为了进一步详细讨论删除的情况，再举另外一个实例：这里是一棵不同的5序B树，删除C
     
-        ![image](http://guyuchen.com/deadpool/images/btree14.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree14.jpg)
         
         于是将删除元素C的右子结点中的D元素上移到C的位置，但是出现上移元素后，只有一个元素的结点的情况。<br>
         又因为含有E的结点，其相邻兄弟结点才刚脱贫（最少元素个数为2），不可能向父节点借元素，所以只能进行合并操作，<br>
         于是这里将含有A,B的左兄弟结点和含有E的结点进行合并成一个结点。
         
-        ![image](http://guyuchen.com/deadpool/images/btree15.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree15.jpg)
         
         这样又出现只含有一个元素F结点的情况，<br>
         这时，其相邻的兄弟结点是丰满的（元素个数为3>最小元素个数2），<br>
@@ -203,13 +203,13 @@
         注意含有K，L的结点以前依附在M的左边，现在变为依附在J的右边。<br>
         这样每个结点都满足B树结构性质。
     
-        ![image](http://guyuchen.com/deadpool/images/btree16.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/btree16.jpg)
         
 ### B+ Tree
 
 B+-tree：是应文件系统所需而产生的一种B-tree的变形树。
 
-![images](http://guyuchen.com/deadpool/images/bptree.jpg)
+![images](https://oss.guyuchen.com/deadpool/images/bptree.jpg)
 
 * **性质**
     
@@ -241,7 +241,7 @@ B*-tree是B+-tree的变体，在B+树的基础上(所有的叶子结点中包含
 B*树中非根和非叶子结点再增加指向兄弟的指针；
 B*树定义了非叶子结点关键字个数至少为(2/3)*M，即块的最低使用率为2/3（代替B+树的1/2）。
 
-![images](http://guyuchen.com/deadpool/images/bstree.jpg)
+![images](https://oss.guyuchen.com/deadpool/images/bstree.jpg)
 
 * B+树的分裂：<br>
     当一个结点满时，分配一个新的结点，并将原结点中1/2的数据复制到新结点，最后在父结点中增加新结点的指针；<br>

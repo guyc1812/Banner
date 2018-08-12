@@ -2,7 +2,7 @@
 
 * **Demonstration**
 
-    ![image](http://guyuchen.com/deadpool/images/lcs.gif)
+    ![image](https://oss.guyuchen.com/deadpool/images/lcs.gif)
 
 * **Solution**
     

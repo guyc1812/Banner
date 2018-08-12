@@ -1,6 +1,6 @@
 # BR Tree
 
-![brtree](http://guyuchen.com/deadpool/images/brtree.png)
+![brtree](https://oss.guyuchen.com/deadpool/images/brtree.png)
 
 ## 节点结构
 
@@ -80,7 +80,7 @@ h <= 2lg(n+1)
     如果新节点的父结点为黑色结点，那么插入一个红点将不会影响红黑树的平衡，此时插入操作完成。<br>
     红黑树比AVL树优秀的地方之一在于黑父的情况比较常见，从而使红黑树需要旋转的几率相对AVL树来说会少一些。
   
-    ![image](http://guyuchen.com/deadpool/images/br1.jpg)
+    ![image](https://oss.guyuchen.com/deadpool/images/br1.jpg)
   
 * **红父**
   
@@ -90,7 +90,7 @@ h <= 2lg(n+1)
     青色结点表示颜色未知。由于有可能需要根结点到新点的路径上进行多次旋转操作，而每次进行不平衡判断的起始点都不一样。<br>
     所以我们在此使用一个蓝色箭头指向这个起始点，并称之为判定点。
   
-    ![image](http://guyuchen.com/deadpool/images/br2.jpg)
+    ![image](https://oss.guyuchen.com/deadpool/images/br2.jpg)
     
     * **红叔**
     
@@ -98,7 +98,7 @@ h <= 2lg(n+1)
         但由于祖父结点的父结点有可能为红色，从而违反红黑树性质。
         此时必须将祖父结点作为新的判定点继续向上（迭代）进行平衡操作。（注意这里是需要迭代的，有可能会调整到根节点）
         
-        ![image](http://guyuchen.com/deadpool/images/br2-1.jpg)
+        ![image](https://oss.guyuchen.com/deadpool/images/br2-1.jpg)
         
         需要注意的是，无论“父节点”在“叔节点”的左边还是右边，无论“新节点”是“父节点”的左孩子还是右孩子，它们的操作都是完全一样的（其实这种情况包括4种，只需调整颜色，不需要旋转树形）。
         
@@ -106,10 +106,10 @@ h <= 2lg(n+1)
     
         当叔父结点为黑色时，需要进行旋转，以下图示了所有的旋转可能：（case1 和caes 2 都是把左边较大的节点调整到上面去）
         
-        1. ![image](http://guyuchen.com/deadpool/images/br2-2-1.jpg)
-        1. ![image](http://guyuchen.com/deadpool/images/br2-2-2.jpg)
-        1. ![image](http://guyuchen.com/deadpool/images/br2-2-3.jpg)
-        1. ![image](http://guyuchen.com/deadpool/images/br2-2-4.jpg)
+        1. ![image](https://oss.guyuchen.com/deadpool/images/br2-2-1.jpg)
+        1. ![image](https://oss.guyuchen.com/deadpool/images/br2-2-2.jpg)
+        1. ![image](https://oss.guyuchen.com/deadpool/images/br2-2-3.jpg)
+        1. ![image](https://oss.guyuchen.com/deadpool/images/br2-2-4.jpg)
         
   
 ## 如何扩张数据结构
@@ -137,9 +137,9 @@ public class BRNode <T extends Comparable<T>>{
 }
 ```
 
-![image](http://guyuchen.com/deadpool/images/sizeTree.png)
+![image](https://oss.guyuchen.com/deadpool/images/sizeTree.png)
 
 
 ## 区间树
 
-![image](http://guyuchen.com/deadpool/images/rangeTree.png)
+![image](https://oss.guyuchen.com/deadpool/images/rangeTree.png)
