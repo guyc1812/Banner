@@ -1,18 +1,21 @@
 package com.avengers.bruce.Algorithm.basic.DataStructure.List.code;
 
+import lombok.Setter;
+
 public class ListNode {
 
     ListNode next;
+    @Setter
     char val;
 
     ListNode() {}
 
-    ListNode(char x) {
+    public ListNode(char x) {
         val = x;
         next = null;
     }
 
-    ListNode add(ListNode node){
+    public ListNode add(ListNode node){
 
         ListNode cur = next;
         while (cur!=null){
@@ -24,7 +27,7 @@ public class ListNode {
         return this;
     }
 
-    ListNode getList() {
+    public ListNode getList() {
 
         ListNode S = new ListNode('S');
         ListNode T = new ListNode('T');
@@ -45,7 +48,7 @@ public class ListNode {
 
     }
 
-    ListNode getCycleList() {
+    public ListNode getCycleList() {
 
         ListNode S = new ListNode('A');
         ListNode T = new ListNode('A');

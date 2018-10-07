@@ -154,7 +154,8 @@
                     ]
                 }
             ]
-        },{
+        },
+        {
             "category": "Banner",
             "title":    "Sort",
             "path":     "src/main/java/com/avengers/bruce/Algorithm/basic/Sorting/README.md",
@@ -321,14 +322,28 @@
                     "category": "Banner",
                     "title": "0-1 Backpack",
                     "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DP/Backpack01/Backpack01.md",
-                    "nav": "DP-01Backpack",
+                    "nav": "dp-01-backpack",
                     "status": 310,
                     "items": []
                 },{
                     "category": "Banner",
                     "title": "Coin Change",
                     "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DP/CoinChange/CoinChange.md",
-                    "nav": "DP-CoinChange",
+                    "nav": "dp-coin-change",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "Lego Blocks",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/hackerrank/legoblocks/README.md",
+                    "nav": "dp-lego-blocks",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "Minimum Window Subsequence",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No727_Minimum_Window_Subsequence/README.md",
+                    "nav": "dp-minimum-window-subsequence",
                     "status": 310,
                     "items": []
                 }
@@ -361,6 +376,89 @@
                     "title": "SubString",
                     "path": "src/main/java/com/avengers/bruce/Algorithm/basic/StringAbout/docs/SubString.md",
                     "nav": "String-SubString",
+                    "status": 310,
+                    "items": []
+                }
+            ]
+        },
+        {
+            "category": "Banner",
+            "title": "DFS",
+            "path": "",
+            "nav": "",
+            "status": 310,
+            "items": [
+                {
+                    "category": "Banner",
+                    "title": "111. Minimum Depth of Binary Tree",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No111_Minimum_Depth_of_Binary_Tree/README.md",
+                    "nav": "leetcode-minimum-depth-of-binary-tree",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "112. Path Sum",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No112_Path_Sum/README.md",
+                    "nav": "leetcode-path-sum",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "329. Longest Increasing Path in a Matrix",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No329_LongestIncreasingPathInAMatrix/README.md",
+                    "nav": "leetcode-longest-increasing-path-in-a-matrix",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "559. Maximum Depth of N-ary Tree",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No559_Maximum_Depth_of_N_ary_Tree/READEME.md",
+                    "nav": "leetcode-maximum-depth-of-n-ary-tree",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "690. Employee Importance",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No690_Employee_Importance/READEME.md",
+                    "nav": "leetcode-employee-importance",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "695. Max Area of Island",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No695_Max_Area_of_Island/README.md",
+                    "nav": "leetcode-max-area-of-island",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "872. Leaf-Similar Trees",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No872_Leaf_Similar_Trees/README.md",
+                    "nav": "leetcode-leaf-similar-trees",
+                    "status": 310,
+                    "items": []
+                },{
+                    "category": "Banner",
+                    "title": "897. Increasing Order Search Tree",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No897_Increasing_Order_Search_Tree/README.md",
+                    "nav": "leetcode-increasing-order-search-tree",
+                    "status": 310,
+                    "items": []
+                }
+            ]
+        },
+        {
+            "category": "Banner",
+            "title": "BFS",
+            "path": "",
+            "nav": "",
+            "status": 310,
+            "items": [
+                {
+                    "category": "Banner",
+                    "title": "310. Minimum Height Trees",
+                    "path": "src/main/java/com/avengers/bruce/Algorithm/leetCode/No310_Minimum_Height_Trees/README.md",
+                    "nav": "leetcode-minimum-height-trees",
                     "status": 310,
                     "items": []
                 }

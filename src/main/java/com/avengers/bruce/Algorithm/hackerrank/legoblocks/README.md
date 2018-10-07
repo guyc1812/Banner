@@ -1,0 +1,1 @@
+# [Lego Blocks](https://www.hackerrank.com/challenges/lego-blocks/problem)
