@@ -446,7 +446,7 @@
                     "items": []
                 },{
                     "category": "Banner",
-                    "title": "Burn a Binary Tree (by uncle Winter)",
+                    "title": "Burn a Binary Tree",
                     "path": "src/main/java/com/avengers/bruce/Algorithm/basic/DFS/BurnTree/README.md",
                     "nav": "dfs-burn-a-binary-tree",
                     "status": 310,

@@ -1,4 +1,4 @@
-# Burn a Binary Tree
+# Burn a Binary Tree (by uncle Winter)
 
 * **Question**
 
@@ -6,7 +6,7 @@
 
 * **Idea**
 
-    ![image](https://oss.guyuchen.com/deadpool/images/burntree.jpg)
+    <img src="https://oss.guyuchen.com/deadpool/images/burntree.jpg" height="320px">
 
 * **Solution**
 
